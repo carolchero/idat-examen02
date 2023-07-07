@@ -10,7 +10,7 @@
     </parent>
     <groupId>idat.dw</groupId>
     <artifactId>practica02</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>practica02</name>
     <description>practica02</description>
     <properties>
