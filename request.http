@@ -1,4 +1,4 @@
-@subdominio = sub-dominio-render
+@subdominio = rosacotos-dw-practica-02
 
 ##############################
 # Requests SIN base de datos #
@@ -6,15 +6,15 @@
 
 ###
 # 1: Mostrar su código IDAT y su nombre en el siguiente formato: CÓDIGO - NOMBRE
-GET https://{{subdominio}}.onrender.com/
+GET https://rosacotos-dw-practica-02.onrender.com
 
 ###
 # 2: Mostrar su código IDAT
-GET https://{{subdominio}}.onrender.com/idat/codigo
+GET https://rosacotos-dw-practica-02.onrender.com/idat/codigo
 
 ###
 # 3: Mostrar su nombre completo
-GET https://{{subdominio}}.onrender.com/idat/nombre-completo
+GET https://rosacotos-dw-practica-02.onrender.com/idat/nombre-completo
 
 
 
@@ -30,19 +30,18 @@ GET https://{{subdominio}}.onrender.com/idat/nombre-completo
 
 ###
 # 4: Listar cursos
-GET https://{{subdominio}}.onrender.com/api/curso/listar HTTP/1.1
+GET https://rosacotos-dw-practica-02.onrender.com/api/curso/listar HTTP/1.1
 
 ###
 # 5: Nuevo Curso
-POST https://{{subdominio}}.onrender.com/api/curso/nuevo HTTP/1.1
+POST https://rosacotos-dw-practica-02.onrender.com/api/curso/nuevo HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-nombre=DSW1
-&creditos=2
+nombre=DSW1&creditos=2
 
 ###
 # 6: Eliminar Curso
-DELETE https://{{subdominio}}.onrender.com/api/curso/eliminar HTTP/1.1
+DELETE https://rosacotos-dw-practica-02.onrender.com/api/curso/eliminar HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-id=1
+id=2
