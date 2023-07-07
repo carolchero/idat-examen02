@@ -18,17 +18,17 @@ public class MainController {
 
     @GetMapping(path="")
     public @ResponseBody String getNombreCodigo() {
-        return "PI47694351 - COTOS SULLON ROSAURA";
+        return "PI47996977 - CHERO PAZ CAROL DEL PILAR";
     }
 
     @GetMapping(path="/idat/codigo")
     public @ResponseBody String getCodigo() {
-        return "PI47694351";
+        return "PI47996977";
     }
 
     @GetMapping(path="/idat/nombre-completo")
     public @ResponseBody String getNombre() {
-        return "COTOS SULLON ROSAURA";
+        return "CHERO PAZ CAROL DEL PILAR";
     }
 
     @PostMapping(path="/api/curso/nuevo") // Map ONLY POST Requests
